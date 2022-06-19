@@ -4,9 +4,9 @@ class Greet extends Component {
   render() {
     return (
       <div className="greet">
-        <h1 className="display-3">Algorithm Visualizer</h1>
+        <h1 className="display-6">AlgoVision</h1>
         <hr className="dropdown-divider" />
-        <h1 className="display-5">See through the Algorithms!!</h1>
+        <h1 className="display-6">Visualize your favorite Algorithms</h1>
       </div>
     );
   }
