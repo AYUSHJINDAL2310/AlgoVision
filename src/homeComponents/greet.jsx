@@ -6,7 +6,7 @@ class Greet extends Component {
       <div className="greet">
         <h1 className="display-6">AlgoVision</h1>
         <hr className="dropdown-divider" />
-        <h1 className="display-6">Visualize your favorite Algorithms</h1>
+        <h1 className="display-6">Visualize your favorite Algorithms!</h1>
       </div>
     );
   }

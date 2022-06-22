@@ -6,7 +6,7 @@ import Home from "./homeComponents/home";
 import Seive from "./primeComponents/seive";
 import Sort from "./sortComponents/sort";
 import RecursiveSort from "./recursiveSortComponents/recursiveSort";
-
+import Queen from "./queenComponents/queen";
 class App extends Component {
   constructor() {
     super();
@@ -23,6 +23,7 @@ class App extends Component {
           <Route path="/prime" component={Seive} />
           <Route path="/sort" component={Sort} />
           <Route path="/recursivesort" component={RecursiveSort} />
+          <Route path="/nqueen" component={Queen} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>
